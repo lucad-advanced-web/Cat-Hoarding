@@ -70,3 +70,25 @@ footer{
 	text-align:center;
 	padding:5px;
 }
+
+
+/*******  BEGIN MEDIA QUERIES *******/
+
+/* 481px - 768px */
+@media screen and (min-width:480px) {
+
+}
+
+
+
+/* 768px - 1024px */
+@media screen and (min-width:768px) {
+
+}
+
+
+
+/* 1024px and Larger  */
+@media screen and (min-width:1024px) {
+
+}
