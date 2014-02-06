@@ -4,7 +4,7 @@ body{
 	margin:0px;
 	padding:0px;
 	font-family:Open Sans;
-	font-size: 10pt;
+	font-size: 0.83em;
 	line-height: 14pt;
 }
 
@@ -13,7 +13,11 @@ a{
 	text-decoration: none;
 	color:#FFFFFF;
 }
-
+h1{
+	color:rgba(174,211,65,1);
+	font-size: 14pt;
+	line-height: 15pt;
+}
 
 h3{
 	color:rgba(174,211,65,1);
@@ -36,46 +40,34 @@ h4{
 	float: right;
 
 }
-#nav li {
-	margin: 0px 10px 0px 0px;
-	padding: 4px 15px;
-}
-
-#meeting{
-	width:100%;
-	float:left;
-}
-
-#subscribe{
-	width:100%;
-	float:left;
-}
-h1{
-	color:rgba(174,211,65,1);
-	font-size: 14pt;
-	line-height: 15pt;
-}
-#nav{
-	margin:0px;
-	padding:20px;
-	width:300px;
-	float:right;
-}
-
 #nav ul{
 	margin:0px;
 	padding:0px;
 	list-style:none;
 	float:right;
-	}
+}
 
-#nav li{
-	margin:0px 20px 0px 0px;
-	padding:5px 35px;
+#nav li {
+	margin: 0px 10px 0px 0px;
+	padding: 4px 15px;
 	display:inline;
 	background-color:rgba(174,211,65,0.8);
 	text-align: center;
 }
+
+#meeting{
+	width:100%;
+	float:left;
+	border-top: 2px solid rgba(174,211,65,1);
+}
+
+#subscribe{
+	width:100%;
+	float:left;
+	border-top: 2px solid rgba(174,211,65,1);
+}
+
+
 
 
 /*body content*/
@@ -104,27 +96,13 @@ h1{
 	border-top: 2px solid rgba(174,211,65,1);
 }
 
-#meeting{
-	margin:10px 0px 0px 0px;
-	padding:0px;
-	width:48%;
-	float:left;
-	border-top: 2px solid rgba(174,211,65,1);
-}
 
-#subscribe{
-	margin:10px 0px 0px 0px;
-	padding:0px;
-	width:48%;
-	float:right;
-	border-top: 2px solid rgba(174,211,65,1);
-}
 
 
 /*footer*/
 #footer{
 	margin:10px 0px 0px 0px;
-	padding:0px;
+	padding:5px;
 	width:100%;
 	height:40px;
 	background-color:rgba(174,211,65,1);
@@ -133,31 +111,40 @@ h1{
 /* 481px - 768px */
 @media screen and (min-width:480px) {
 
-#nav {
-	margin: 0px;
-	padding: 20px 0px;
-	width: 300px;
-	float: right;
-
+h1{
+	color:rgba(174,211,65,1);
+	font-size: 50pt;
+	line-height: 52pt;
 }
-#nav li {
-	margin: 0px 10px 0px 0px;
-	padding: 4px 15px;
+#nav{
+	margin:0px;
+	padding:20px;
+	width:300px;
+	float:right;
 }
 
+
+#nav li{
+	margin:0px 20px 0px 0px;
+	padding:5px 35px;
+	display:inline;
+	background-color:rgba(174,211,65,0.8);
+	text-align: center;
+}
 #meeting{
-	width:100%;
+	margin:10px 0px 0px 0px;
+	padding:0px;
+	width:48%;
 	float:left;
+
 }
 
 #subscribe{
-	width:100%;
-	float:left;
-}
-h1{
-	color:rgba(174,211,65,1);
-	font-size: 14pt;
-	line-height: 15pt;
+	margin:10px 0px 0px 0px;
+	padding:0px;
+	width:48%;
+	float:right;
+	
 }
 }
 /* end 481px - 768px */
@@ -165,11 +152,7 @@ h1{
 
 /* 768px - 1024px */
 @media screen and (min-width:768px) {
-h1{
-	color:rgba(174,211,65,1);
-	font-size: 50pt;
-	line-height: 52pt;
-}
+
 }
 
 
@@ -179,9 +162,7 @@ h1{
 #about{
 	margin-top:100px;
 }
-#quote{
-	padding-bottom:50px;
-}
+
 }
 
 
