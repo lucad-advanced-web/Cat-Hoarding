@@ -107,6 +107,8 @@ h4{
 	height:40px;
 	background-color:rgba(174,211,65,1);
 	float:left;
+	color:white;
+	text-align:center;
 }
 /* 481px - 768px */
 @media screen and (min-width:480px) {
