@@ -1,15 +1,96 @@
+/*Global Styles*/
+
 body{
-	background-image:url('images/dark_cat_edited.png');
+	margin:0px;
+	padding:0px;
 	font-family:Open Sans;
+	font-size: 9pt;
+	line-height: 14pt;
 }
-.navbar{
-	background-color:rgba(174,211,65,0.4);
+
+a{
+	font-weight: bold;
+	text-decoration: none;
+	color:#FFFFFF;
+}
+
+h1{
+	color:rgba(174,211,65,1);
+	font-size: 50pt;
+	line-height: 52pt;
 }
 
 h3{
-	color:rgb(174,211,65);
+	color:rgba(174,211,65,1);
 }
 
 h4{
-	color:rgb(174,211,65);
+	color:rgba(174,211,65,1);
+}
+/*Navigation*/
+
+.navwrap{
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+
+#nav{
+	margin:0px;
+	padding:20px;
+	width:300px;
+	float:right;
+}
+
+#nav ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	float:right;
+	}
+
+#nav li{
+	margin:0px 20px 0px 0px;
+	padding:5px 35px;
+	display:inline;
+	background-color:rgba(174,211,65,0.8);
+	text-align: center;
+}
+
+
+/*body content*/
+.wrapper{
+	margin:0;
+	padding:30px;
+	background-image: url('images/dark_cat_edited.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+#quote{
+	margin:0px auto;
+	padding:30% 0px 10% 0px;
+	width:100%;
+	text-align: center;
+}
+
+#subscribe{
+	margin:10px 0px 0px 0px;
+	padding:0px;
+	width:48%;
+	float:right;
+	border-top: 2px solid rgba(174,211,65,1);
+}
+
+
+/*footer*/
+#footer{
+	margin:10px 0px 0px 0px;
+	padding:0px;
+	width:100%;
+	height:40px;
+	background-color:rgba(174,211,65,1);
+	float:left;
+	text-align: center;
+	color: #FFFFFF;
 }
