@@ -113,8 +113,8 @@ h4{
 
 h1{
 	color:rgba(174,211,65,1);
-	font-size: 50pt;
-	line-height: 52pt;
+	font-size: 27pt;
+	line-height: 30pt;
 }
 #nav{
 	margin:0px;
@@ -154,6 +154,11 @@ h1{
 @media screen and (min-width:768px) {
 #about{
 	padding-top:0px;
+}
+h1{
+	color:rgba(174,211,65,1);
+	font-size: 35pt;
+	line-height: 38pt;
 }
 }
 
