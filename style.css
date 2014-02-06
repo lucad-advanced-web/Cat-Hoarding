@@ -78,7 +78,7 @@ h4{
 }
 
 #about{
-	margin:10px 0px 0px 0px;
+	//margin:10px 0px 0px 0px;
 	padding:0px;
 	width:100%;
 	border-top: 2px solid rgba(174,211,65,1);
@@ -111,7 +111,7 @@ h4{
 	float:left;
 }
 /* 481px - 768px */
-@media screen and (max-width:480px) {
+@media screen and (min-width:480px) {
 
 #nav {
 	margin: 0px;
@@ -144,18 +144,18 @@ h1{
 
 
 /* 768px - 1024px */
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
 
 }
 
 
 /* 1024px and Larger  */
-@media screen and (max-width:1024px) {
+@media screen and (min-width:1024px) {
 
 #about{
 	margin-top:100px;
 }
-h1{
+#quote{
 	padding-bottom:50px;
 }
 }
