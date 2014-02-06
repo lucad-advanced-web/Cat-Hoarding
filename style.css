@@ -152,7 +152,9 @@ h1{
 
 /* 768px - 1024px */
 @media screen and (min-width:768px) {
-
+#about{
+	padding-top:0px;
+}
 }
 
 
@@ -162,7 +164,11 @@ h1{
 #about{
 	margin-top:100px;
 }
-
+h1{
+	color:rgba(174,211,65,1);
+	font-size: 50pt;
+	line-height: 52pt;
+}
 }
 
 
