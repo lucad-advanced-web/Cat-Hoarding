@@ -1,94 +1,156 @@
+/*Global Styles*/
+
 body{
-	background-image:url('images/Pretty-Cat-With-Beautiful-Green-Eyes-Picture-HD-Wallpaper.jpg');
-	background-position:top;
-	background-size:100%;
-	background-repeat:no-repeat; 
+	margin:0px;
+	padding:0px;
 	font-family:Open Sans;
-
-}
-.navbar{
-	
-	list-style:none;
-	float:right;
-	margin-top:-10px;
-	padding:5px;
-	
+	font-size: 9pt;
+	line-height: 14pt;
 }
 
-.navbar li{
-	display:inline-block;
-	padding:5px;
-	color:white;
-
+a{
+	font-weight: bold;
+	text-decoration: none;
+	color:#FFFFFF;
 }
 
-.navbar li:first-child{
-	margin-right:20px;
-	background-color:rgba(174,211,65,0.6);
-}
-
-.navbar li:nth-child(2){
-	
-	background-color:rgba(174,211,65,0.6);
+h1{
+	color:rgba(174,211,65,1);
+	font-size: 50pt;
+	line-height: 52pt;
 }
 
 h3{
-	color:rgb(174,211,65);
+	color:rgba(174,211,65,1);
 }
 
 h4{
-	color:rgb(174,211,65);
-	font-size:16px;
-	letter-spacing:-1px;
+	color:rgba(174,211,65,1);
 }
 
-p{
-	font-size:16px;
-}
-.subscription{
+
+/*Navigation*/
+
+.navwrap{
+	margin:0px;
+	padding:0px;
 	width:100%;
 }
 
-.email{
-	border:solid 2px;
-	border-color:rgb(200,200,200);
-	border-radius:5px;
-	color:rgb(200,200,200);
-	text-align:center;
-	width:65%;
-}
-button{
-	background-color:rgb(174,211,65);
-	color:white;
-	width:25%;
+#nav{
+	margin:0px;
+	padding:20px;
+	width:300px;
+	float:right;
 }
 
-footer{
-	background-color:rgb(174,211,65);
-	color:white;
+#nav ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	float:right;
+	}
+
+#nav li{
+	margin:0px 20px 0px 0px;
+	padding:5px 35px;
+	display:inline;
+	background-color:rgba(174,211,65,0.8);
+	text-align: center;
+}
+
+
+/*body content*/
+.wrapper{
+	margin:0;
+	padding:30px;
+	background-image: url('images/Pretty-Cat-With-Beautiful-Green-Eyes-Picture-HD-Wallpaper.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+
+#quote{
+	margin:0px auto;
+	padding:30% 0px 10% 0px;
 	width:100%;
-	text-align:center;
-	padding:5px;
+	text-align: center;
+}
+
+#about{
+	margin:10px 0px 0px 0px;
+	padding:0px;
+	width:100%;
+	border-top: 2px solid rgba(174,211,65,1);
+}
+
+#meeting{
+	margin:10px 0px 0px 0px;
+	padding:0px;
+	width:48%;
+	float:left;
+	border-top: 2px solid rgba(174,211,65,1);
+}
+
+#subscribe{
+	margin:10px 0px 0px 0px;
+	padding:0px;
+	width:48%;
+	float:right;
+	border-top: 2px solid rgba(174,211,65,1);
 }
 
 
-/*******  BEGIN MEDIA QUERIES *******/
+/*footer*/
+#footer{
+	margin:10px 0px 0px 0px;
+	padding:0px;
+	width:100%;
+	height:40px;
+	background-color:rgba(174,211,65,1);
+	float:left;
+	text-align: center;
+	color: #FFFFFF;
+}
+
 
 /* 481px - 768px */
-@media screen and (min-width:480px) {
+@media screen and (max-width:480px) {
 
+#nav {
+	margin: 0px;
+	padding: 20px 0px;
+	width: 300px;
+	float: right;
 }
 
+#nav li {
+	margin: 0px 10px 0px 0px;
+	padding: 4px 15px;
+}
+
+#meeting{
+	width:100%;
+	float:left;
+}
+
+#subscribe{
+	width:100%;
+	float:left;
+}
+
+}
+/* end 481px - 768px */
 
 
 /* 768px - 1024px */
-@media screen and (min-width:768px) {
+@media screen and (max-width:768px) {
 
 }
 
 
-
 /* 1024px and Larger  */
-@media screen and (min-width:1024px) {
+@media screen and (max-width:1024px) {
 
 }
