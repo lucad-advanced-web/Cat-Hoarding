@@ -54,7 +54,9 @@ h4{
 	background-color:rgba(174,211,65,0.8);
 	text-align: center;
 }
-
+.symptoms-prevention ul{
+	line-height:10px;
+}
 #meeting{
 	width:100%;
 	float:left;
