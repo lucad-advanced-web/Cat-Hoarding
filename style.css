@@ -28,6 +28,14 @@ h4{
 }
 /*Navigation*/
 
+#logo{
+	margin: 0px;
+	padding: 0px 0px 0px 30px;
+	width: 20%;
+	float: left;
+	z-index: 9;
+}
+
 .navwrap{
 	margin:0px;
 	padding:0px;
@@ -36,7 +44,7 @@ h4{
 #nav {
 	margin: 0px;
 	padding: 20px 0px;
-	width: 300px;
+	width: 100%;
 	float: right;
 
 }
@@ -106,7 +114,7 @@ h4{
 	margin:10px 0px 0px 0px;
 	padding:5px;
 	width:100%;
-	height:40px;
+	height:20px;
 	background-color:rgba(174,211,65,1);
 	float:left;
 	color:white;
@@ -120,10 +128,11 @@ h1{
 	font-size: 27pt;
 	line-height: 30pt;
 }
+
 #nav{
 	margin:0px;
 	padding:20px;
-	width:300px;
+	width:100%;
 	float:right;
 }
 
